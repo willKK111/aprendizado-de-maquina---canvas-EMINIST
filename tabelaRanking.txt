@@ -1,0 +1,17 @@
+Montando tabela de ranking...
+                modelo  dataset  acc_treino  acc_teste  diferenca
+1           NaiveBayes  binario    0.306440   0.308093   0.001653
+2   LogisticRegression  binario    0.986674   0.984840   0.001833
+3                  SVM  binario    0.995346   0.993275   0.002071
+4        MLPClassifier  binario    1.000000   0.993579   0.006421
+0         RandomForest  binario    1.000000   0.988564   0.011436
+8                  SVM  digitos    0.995804   0.986071   0.009732
+6           NaiveBayes  digitos    0.875268   0.857143   0.018125
+9        MLPClassifier  digitos    1.000000   0.981071   0.018929
+5         RandomForest  digitos    1.000000   0.971071   0.028929
+7   LogisticRegression  digitos    0.982857   0.952857   0.030000
+11          NaiveBayes   letras    0.760982   0.755000   0.005982
+13                 SVM   letras    0.989643   0.979286   0.010357
+14       MLPClassifier   letras    1.000000   0.975357   0.024643
+10        RandomForest   letras    1.000000   0.967857   0.032143
+12  LogisticRegression   letras    0.966071   0.927500   0.038571
